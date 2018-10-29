@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="css/onsenui.css">
+    <link rel="stylesheet" href="css/onsen-css-components.min.css">
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/aframe-master.js"></script>
+    <!-- <title>Hello World</title> -->
+</head>
+
+<body onload="appInit()">
+    <ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+    <template id="page1.html">
+        <ons-page>
+            <!-- <ons-toolbar style="background-color: #1A1A1A">
+                <div class="center">Video doc <div id="iam"></div>
+                </div>
+                <div class="left"><img src="img/logo.png" alt="Onsen UI" style="height: 100%"></div>
+                <div class="right">
+                    <div id="otherClients"></div>
+                </div>
+            </ons-toolbar> -->
+            
+            <!-- <video id="box1" autoplay="autoplay" playsinline="playsinline"></video>
+            <video id="box2" autoplay="autoplay" playsinline="playsinline"></video> -->
+            <!-- <video id="box1" muted="muted" width="150" volume="0" autoplay="autoplay" playsinline="playsinline"></video> -->
+            <!-- <video id="box2" style="visibility: hidden;" width="0" height="0" muted="muted" width="150" volume="0" autoplay="autoplay" playsinline="playsinline"></video> -->
+        
+            <!-- <video autoplay="autoplay" class="img-fluid d-block rounded" width="1px" playsinline="playsinline" id="selfVideo"
+                muted="true" volume="0"></video> -->
+            <!-- <a-scene vr-mode-ui="enabled: false" background="color: #1A1A1A">
+                <a-entity camera look-controls>
+                        <video id="box1" autoplay loop muted playsinline position="10 0 -12" width="16" height="9"></video>
+                        <video id="box2" autoplay loop muted playsinline position="-10 0 -12" width="16" height="9"></video>
+                    <a-entity geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03" material="color: #4CC3D9; opacity: 0.75" position="0.8339 0 -1"></a-entity>
+                    <a-entity geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03" material="color: #4CC3D9; opacity: 0.75" position="-0.8339 0 -1"></a-entity>
+                </a-entity>
+            </a-scene> -->
+            
+            <video autoplay="autoplay" class="img-fluid d-block rounded" width="1px" playsinline="playsinline" id="box0" muted="true" volume="0"></video>
+            <a-scene vr-mode-ui="enabled: false" background="color: #1A1A1A">
+                <a-assets>
+                    <video playsinline="playsinline" autoplay="autoplay" id="box1"></video>
+                    <video playsinline="playsinline" autoplay="autoplay" id="box2"></video>
+                    <!-- <img src="center.png" id="img1">
+                    <img src="center.png" id="img2"> -->
+                    <a-entity camera look-controls></a-entity>
+                </a-assets>
+                <!-- <a-video src="#img1" width="16" height="9" position="9 -1 -11"></a-video> -->
+                <!-- <a-video src="#img2" width="16" height="9" position="-9 -1 -11"></a-video> -->
+                <a-video src="#box1" width="16" height="9" position="9 -1 -11"></a-video>
+                <a-video src="#box2" width="16" height="9" position="-9 -1 -11"></a-video>
+                <a-entity geometry="primitive: ring; radiusInner: 0.2; radiusOuter: 0.3" material="color: #4CC3D9; opacity: 0.75" position="8.2 -0.90 -10"></a-entity>
+                <a-entity geometry="primitive: ring; radiusInner: 0.2; radiusOuter: 0.3" material="color: #4CC3D9; opacity: 0.75" position="-8.2 -0.90 -10"></a-entity>
+                
+            </a-scene>
+            
+        </ons-page>
+    </template>
+    <script src="js/socket.io.js"></script>
+    <script src="js/easyrtc.js"></script>
+    <!-- <script src="js/demo_audio_video_simple_hd.js"></script> -->
+    <script src="js/demo_multiparty.js"></script>
+</body>
+
+</html>

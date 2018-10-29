@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:1-26:12
+INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:1-26:12
+INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:1-26:12
+INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:1-26:12
+INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:1-26:12
+INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:1-26:12
+INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:1-26:12
+	package
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:21:7-35
+		INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml
+		INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:21:36-61
+		INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml
+		INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:21:62-85
+		INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml
+		INJECTED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:22:5-44
+	android:minSdkVersion
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:22:15-41
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:23:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:24:1-76
+	android:name
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:24:18-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:25:1-67
+	android:name
+		ADDED from C:\Users\diego\Desktop\PhoneStreaming\phoneCameraStreaming\videoDoc\platforms\android\CordovaLib\AndroidManifest.xml:25:18-64
